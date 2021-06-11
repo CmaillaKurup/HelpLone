@@ -3,6 +3,7 @@ using HelpLone.Interfaces;
 
 namespace HelpLone
 {
+    //This Class have a reference to the needed interfaces
     public class Knight : ICharacter, IShield, IHit
     {
         public void Bash()
